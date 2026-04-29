@@ -1,10 +1,10 @@
 # Defra Legacy Reverse Engineering Plugin
 
-This plugin assists engineers working on Defra's Legacy Application Programme (LAP).
+This system assists engineers working on understanding and re-engineering legacy systems.
 
 ## Context
 
-Defra maintains a large estate of legacy applications built across decades using a variety of technologies. The LAP programme aims to understand, document, and modernise these systems.
+This project will take inputs from legacy software systems including, source code, tests, screenshots, SME interviews etc, it will produce a PRD and a set of features for re-engineering
 
 ## Conventions
 
