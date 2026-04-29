@@ -8,7 +8,7 @@ Defra maintains a large estate of legacy applications built across decades using
 
 ## Conventions
 
-- Use British English in all generated documentation
+- Use American English in all generated documentation
 - Refer to the programme as "LAP" or "Legacy Application Programme"
 - Treat all legacy code as potentially undocumented — never assume documentation exists
 - When creating a new skill, add an entry to the Skills table in README.md
