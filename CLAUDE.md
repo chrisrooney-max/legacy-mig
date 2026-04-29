@@ -4,7 +4,7 @@ This system assists engineers working on understanding and re-engineering legacy
 
 ## Context
 
-This project will take inputs from legacy software systems including, source code, tests, screenshots, SME interviews etc, it will produce a PRD and a set of features for re-engineering
+This project will take inputs from legacy software systems including, source code, tests, screenshots, SME interviews, telemetry and logs etc, it will produce a PRD and a set of features for re-engineering
 
 ## Conventions
 
