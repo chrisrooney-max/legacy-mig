@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Facility | Workplace Safety Training Certification Database</title>
+</head>
+<body>
+
+  <header>
+    <!-- NSA WST hexagonal logo -->
+    <p aria-label="Site logo">NSA WST</p>
+    <hgroup>
+      <h1>Workplace Safety Training</h1>
+      <p>Certification Database</p>
+    </hgroup>
+    <aside aria-label="Logged-in user">
+      <p>Logged in as: <strong>Jane Cooper</strong></p>
+      <p>Role: <strong>Superuser</strong></p>
+      <p>NSADOM\jcooper</p>
+    </aside>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#" aria-haspopup="true">Person</a></li>
+      <li><a href="#" aria-haspopup="true">Certification</a></li>
+      <li><a href="#" aria-current="page">Facility</a></li>
+      <li><a href="#" aria-haspopup="true">User</a></li>
+      <li><a href="#" aria-haspopup="true">News</a></li>
+      <li><a href="#" aria-haspopup="true">Help</a></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section aria-labelledby="add-facility-heading">
+      <h2 id="add-facility-heading">Add Facility</h2>
+
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Facility Details</legend>
+
+          <div>
+            <label for="facility-code">Facility Code: <abbr title="required">*</abbr></label>
+            <input type="text" id="facility-code" name="facility_code" required>
+          </div>
+
+          <div>
+            <label for="facility-name">Facility Name: <abbr title="required">*</abbr></label>
+            <input type="text" id="facility-name" name="facility_name" required>
+          </div>
+
+          <div>
+            <label for="address-line-1">Address Line 1:</label>
+            <input type="text" id="address-line-1" name="address_line_1">
+          </div>
+
+          <div>
+            <label for="address-line-2">Address Line 2:</label>
+            <input type="text" id="address-line-2" name="address_line_2">
+          </div>
+
+          <div>
+            <label for="town-city">Town/City:</label>
+            <input type="text" id="town-city" name="town_city">
+          </div>
+
+          <div>
+            <label for="county">County:</label>
+            <input type="text" id="county" name="county">
+          </div>
+
+          <div>
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode">
+          </div>
+
+          <div>
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone">
+          </div>
+
+          <div>
+            <label for="fax">Fax:</label>
+            <input type="tel" id="fax" name="fax">
+          </div>
+
+          <div>
+            <label for="nsa-office">NSA Office:</label>
+            <input type="checkbox" id="nsa-office" name="nsa_office" value="1">
+            <span>This facility is an NSA office</span>
+          </div>
+
+          <div>
+            <button type="submit">Add Facility</button>
+            <button type="reset">Clear</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2008 National Safety Authority — Workplace Safety Training Certification Database v2.1.3</p>
+    <p>Best viewed in Internet Explorer 8+ or Google Chrome</p>
+  </footer>
+
+</body>
+</html>

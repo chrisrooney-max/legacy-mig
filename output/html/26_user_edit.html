@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit User – Workplace Safety Training / Certification Database</title>
+</head>
+<body>
+
+  <header>
+    <!-- NSA WST hexagonal logo badge -->
+    <p><strong>NSA WST</strong></p>
+    <h1>Workplace Safety Training / Certification Database</h1>
+    <p>Logged in as: Jane Cooper<br>Role: Superuser<br>NSADOM\jcooper</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Person</a><!-- Dropdown indicator --></li>
+      <li><a href="#">Certification</a><!-- Dropdown indicator --></li>
+      <li><a href="#">Facility</a><!-- Dropdown indicator --></li>
+      <li><a href="#">User</a><!-- Dropdown indicator --></li>
+      <li><a href="#">News</a><!-- Dropdown indicator --></li>
+      <li><a href="#">Help</a><!-- Dropdown indicator --></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Edit User</h2>
+
+      <form method="post">
+        <fieldset>
+          <legend>User Details</legend>
+
+          <div>
+            <label for="user-id">User ID:</label>
+            <input type="text" id="user-id" name="userId" value="NSADOM\mphillips" readonly>
+          </div>
+
+          <div>
+            <label for="user-name">User name: <abbr title="required">*</abbr></label>
+            <input type="text" id="user-name" name="userName" value="Mark Phillips" required>
+          </div>
+
+          <div>
+            <label for="user-location">User location: <abbr title="required">*</abbr></label>
+            <select id="user-location" name="userLocation" required>
+              <option selected>Northern Region</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="user-level">User level: <abbr title="required">*</abbr></label>
+            <select id="user-level" name="userLevel" required>
+              <option selected>2</option>
+            </select>
+          </div>
+
+          <div>
+            <button type="submit">Save Changes</button>
+            <button type="button">Cancel</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2008 National Safety Authority — WST v2.1.3</p>
+    <p>Best viewed in IE 8+ or Chrome</p>
+  </footer>
+
+</body>
+</html>

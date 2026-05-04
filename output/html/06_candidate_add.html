@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add a Person | Workplace Safety Training Certification Database</title>
+</head>
+<body>
+
+  <header>
+    <!-- NSA WST hexagonal logo -->
+    <p aria-label="Site logo">NSA WST</p>
+    <hgroup>
+      <h1>Workplace Safety Training</h1>
+      <p>Certification Database</p>
+    </hgroup>
+    <aside aria-label="Logged-in user">
+      <p>Logged in as: <strong>Jane Cooper</strong></p>
+      <p>Role: <strong>Superuser</strong></p>
+      <p>NSADOM\jcooper</p>
+    </aside>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#" aria-haspopup="true">Person</a></li>
+      <li><a href="#" aria-haspopup="true">Certification</a></li>
+      <li><a href="#" aria-haspopup="true">Facility</a></li>
+      <li><a href="#" aria-haspopup="true">User</a></li>
+      <li><a href="#" aria-haspopup="true">News</a></li>
+      <li><a href="#" aria-haspopup="true">Help</a></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section aria-labelledby="add-person-heading">
+      <h2 id="add-person-heading">Add a Person</h2>
+
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Person Details</legend>
+
+          <div>
+            <label for="person-name">Name (Surname, First name): <abbr title="required">*</abbr></label>
+            <input type="text" id="person-name" name="name" required>
+          </div>
+
+          <div>
+            <label for="facility">Facility:</label>
+            <select id="facility" name="facility">
+              <option value="">-- Select a facility --</option>
+            </select>
+          </div>
+
+          <div>
+            <button type="submit">Add Person</button>
+            <button type="reset">Clear</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2008 National Safety Authority — Workplace Safety Training Certification Database v2.1.3</p>
+    <p>Best viewed in Internet Explorer 8+ or Google Chrome</p>
+  </footer>
+
+</body>
+</html>

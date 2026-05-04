@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Certification - Workplace Safety Training Certification Database</title>
+</head>
+<body>
+
+  <header>
+    <!-- NSA WST hexagonal logo -->
+    <h1>Workplace Safety Training<br><span>Certification Database</span></h1>
+    <aside aria-label="Logged-in user information">
+      <p>Logged in as: <strong>Jane Cooper</strong></p>
+      <p>Role: <strong>Superuser</strong></p>
+      <p>NSADOM\jcooper</p>
+    </aside>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Person</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">Certification</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">Facility</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">User</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">News</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">Help</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Edit Certification</h2>
+
+      <form method="post">
+        <div>
+          <label for="certification-id">Certification ID:</label>
+          <input type="text" id="certification-id" name="certificationId" value="1" readonly>
+        </div>
+
+        <div>
+          <label for="candidate">Candidate:</label>
+          <select id="candidate" name="candidate">
+            <option selected>Thompson, Robert</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="instructor">Instructor:</label>
+          <select id="instructor" name="instructor">
+            <option selected>Davies, Helen</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="hazard-type">Hazard Type:</label>
+          <select id="hazard-type" name="hazardType">
+            <option selected>Chemical</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="certification-level">Certification Level:</label>
+          <select id="certification-level" name="certificationLevel">
+            <option selected>Certified</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" value="2024-03-15">
+          <!-- Calendar picker icon -->
+        </div>
+
+        <div>
+          <button type="submit">Save Changes</button>
+          <button type="button">Cancel</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2008 National Safety Authority — Workplace Safety Training Certification Database v2.1.3</p>
+    <p>Best viewed in Internet Explorer 8+ or Google Chrome</p>
+  </footer>
+
+</body>
+</html>

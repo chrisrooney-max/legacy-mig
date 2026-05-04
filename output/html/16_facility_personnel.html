@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facility Personnel - Workplace Safety Training Certification Database</title>
+</head>
+<body>
+
+  <header>
+    <!-- NSA WST hexagonal logo -->
+    <h1>Workplace Safety Training<br><span>Certification Database</span></h1>
+    <aside aria-label="Logged-in user information">
+      <p>Logged in as: <strong>Jane Cooper</strong></p>
+      <p>Role: <strong>Superuser</strong></p>
+      <p>NSADOM\jcooper</p>
+    </aside>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Person</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">Certification</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">Facility</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">User</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">News</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li>
+        <a href="#">Help</a>
+        <!-- Dropdown indicator -->
+      </li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Facility Personnel</h2>
+
+      <form method="get">
+        <div>
+          <label for="select-facility">Select Facility:</label>
+          <select id="select-facility" name="facilityId">
+            <option selected>FC-001 / Meridian Industrial Services</option>
+          </select>
+          <button type="submit">View</button>
+        </div>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Certified</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Thompson, Robert</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Hussain, Mohammed</td>
+            <td>Yes</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2008 National Safety Authority — Workplace Safety Training Certification Database v2.1.3</p>
+    <p>Best viewed in Internet Explorer 8+ or Google Chrome</p>
+  </footer>
+
+</body>
+</html>
